@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
 public class EvaluatorTests {
 
+    // test for addition
     @Test
     public void testevaluateAddition() {
         String userInput = "23\n32\n+";
@@ -16,6 +17,8 @@ public class EvaluatorTests {
         String actual=ev.evaluate();
         Assert.assertEquals(expected,actual);
     }
+
+    // test for multiplication
     @Test
     public void testevaluateMultiplication() {
         String userInput= "2\n1\n*";
@@ -26,6 +29,8 @@ public class EvaluatorTests {
         String actual=ev.evaluate();
         Assert.assertEquals(expected,actual);
     }
+
+    // test for subtraction
     @Test
     public void testevaluateSubtraction() {
         String userInput = "2\n1\n-";
@@ -36,6 +41,8 @@ public class EvaluatorTests {
         String actual=ev.evaluate();
         Assert.assertEquals(expected,actual);
     }
+
+    // test for division
     @Test
     public void testevaluateDivision() {
         String userInput = "2\n1\n/";
