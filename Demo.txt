@@ -1,3 +1,2 @@
-Demo file
-To test Jenkins 
-To try sonarcube
+This is a demo file
+To test the working of Jenkins and sonarcube
